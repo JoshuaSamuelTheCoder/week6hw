@@ -1,0 +1,27 @@
+#include <opencv2/opencv.hpp> // how we import opencv2
+#include <iostream> // strings
+
+using namespace cv;
+
+
+int main()
+{
+
+std: string fileLocation = "image.jpg";
+
+
+
+Mat img = imread(fileLocation);
+
+
+imshow("Here is an amazing picture", img);
+
+waitKey(0);
+
+
+
+
+
+
+
+}
